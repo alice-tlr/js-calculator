@@ -1,0 +1,50 @@
+body {
+ display: block;
+
+}
+
+
+#container {
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  margin: 0 auto;
+  border-style: double;
+  background-color: rgba(158, 158, 158, 0.26);
+}
+
+#display {
+  padding: 20px;
+  margin:20px;
+  height: 50px;
+  border-style: double;
+  background-color: #fff;
+}
+
+#buttons {
+  padding: 20px;
+  margin:20px;
+}
+
+#operations {
+  padding-bottom: 20px;
+
+}
+
+#numbers {
+  padding-bottom: 20px;
+
+}
+
+#bottom-row {
+  padding-bottom: 20px;
+  margin:0px 20px, 20px;
+}
+
+button {
+  font-size: 15px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  border-color: #000;
+}
