@@ -13,12 +13,13 @@ function calculate(){
 function c(){
   stream = "";//make stream equal to nothing
   document.getElementById('display').innerHTML = stream;//put steam here in HTML
+
 }
 
 function number(a){
-    
+
     if(stream === ''){//if steam is = to nothing
-      stream = '' + a;//then steam = whatever a is (function number(a)) - we're adding '' empty string at the start to make sure its stored as a string not a number. if it was a number, when we do += it will actually calulate rather than concatinate. e.g  1+1 = 2 rather than 1 + 1 = 11
+      stream = '' + a;//then steam = whatever 'a' is (function number(a)) - we're adding '' empty string at the start to make sure its stored as a string not a number. if it was a number, when we do += it will actually calulate rather than concatinate. e.g  1+1 = 2 rather than 1 + 1 = 11
     }
     else if(isNumber(a)){//else/if if number is in the last position, print to console
       console.log(a);
@@ -34,22 +35,22 @@ function number(a){
 }
 
 var times = function(){
-  stream += ' *';//this will apply * to the end of your stream
+  stream += ' * ';//this will apply * to the end of your stream
     document.getElementById('display').innerHTML = stream;
 }
 
 var divide = function(){
-  stream += ' /';//this will apply / to the end of your stream
+  stream += ' / ';//this will apply / to the end of your stream
     document.getElementById('display').innerHTML = stream;
 }
 
 var add = function(){
-  stream += ' +';//this will apply + to the end of your stream
+  stream += ' + ';//this will apply + to the end of your stream
     document.getElementById('display').innerHTML = stream;
 }
 
 var subtract = function(){
-  stream += ' -';//this will apply - to the end of your stream
+  stream += ' - ';//this will apply - to the end of your stream
     document.getElementById('display').innerHTML = stream;
 }
 
